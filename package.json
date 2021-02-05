@@ -1,0 +1,30 @@
+{
+  "name": "poc-npx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangshew/poc-npx.git"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.3"
+  },
+  "keywords": [],
+  "author": "shuang2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangshew/poc-npx/issues"
+  },
+  "homepage": "https://github.com/huangshew/poc-npx#readme",
+  "bin": {
+    "my-cli": "./bin/entry.js"
+  }
+}
